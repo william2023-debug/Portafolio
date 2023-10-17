@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">William</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">DIRECCION GOOGLE MAP</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="img/hero.png" alt="">
+            </div>
+            <h1>WILLIAM VIVAS</h1>
+            <h2>Egresado de Ingeniero de Software          FRONTEND y BACKEND DEVELOPER</h2>
+            <div class="redes">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+                <a href="#"><i class="fa-brands fa-snapchat"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-github"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mí</h2>
+            <p><span>Hola, soy William Steeve Vivas Areas.</span> Los desarrolladores de software tenemos más de artistas que de frías mentes matemáticas. “Los estereotipos describen a los ingenieros de software como socialmente ineptos e introvertidos, con la mente enfocada solamente en las computadoras.  </p>
+
+            <div class="fila">
+                <!-- datos personales -->
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Cumpleaños</strong>
+                            21-Septimbre-1980
+                        </li>
+                        <li>
+                            <strong>Teléfono</strong>
+                            +1 (623) 305-3515
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            williamsteeve22@gmail.com
+                        </li>
+                        <li>
+                            <strong>Website</strong>
+                            https://github.com/william2023-debug
+                        </li>
+                        <li>
+                            <strong>Dirección</strong>
+                            1064 E Hoover Ave - Mesa AZ 85204
+                        </li>
+                        <li>
+                            <strong>Cargo</strong>
+                            <span>FREELANCE FRONTEND y BACKEND DEVELOPER</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- intereses -->
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>JUEGOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>MUSICA</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-plane"></i>
+                            <span>VIAJAR</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-brands fa-apple"></i>
+                            <span>MAC OS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-person-hiking"></i>
+                            <span>DEPORTE</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-book"></i>
+                            <span>LIBROS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-car"></i>
+                            <span>AUTOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-camera"></i>
+                            <span>FOTOS</span>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <button>
+               VISITAR LA SIGUIENTE DIRECCION PARA VER MI PERFIL COMPLETO https://github.com/william2023-debug <i class="fa-solid fa-download"></i>
+                <span class="overlay"></span>
+            </button>
+        </div>
+    </section>
+
+    <!-- SECCION SKILLS -->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Skills</h2>
+            <div class="fila">
+                <!-- Technical Skill -->
+                <div class="col">
+                    <h3>Technical Skills</h3>
+                    <div class="skill">
+                        <span>JAVASCRIPT and PYTHON</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>89%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>C, C++ and C#</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>MVC5 ASP.NET and WEB API'S</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>81%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>REACT, ANGULAR and WEB API'S</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>55%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Professional Skills -->
+                <div class="col">
+                    <h3>Professional Skills</h3>
+                    <div class="skill">
+                        <span>Comunicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Trabajo en Equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creatividad</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>99%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>65%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Proyect Management</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>94%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CURRICULUM -->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+                    <div class="item izq">
+                        <h4>Mantenimiento y Reparacion de PC</h4>
+                        <span class="casa">American College - Nicaragua</span>
+                        <span class="fecha">Marzo 2017 - Mayo 2017</span>
+                        <p>Capacidad para ensamblar, instalar, configurar y actualizar, de acuerdo a los requerimientos del cliente, el hardware y el software de una PC. Resolver los problemas que se presenten durante su operación, mediante la utilización de técnicas, herramientas y repuestos adecuados, aplicando las medidas de seguridad e higiene correspondientes a cada tarea. </p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Certificacion de Hacking Etico, con mencion en Backtrack sobre Penetration Testing</h4>
+                        <span class="casa">American College - Nicaragua</span>
+                        <span class="fecha">Marzo 2017 - Junio 2017</span>
+                        <p>Planificar y ejecutar periódicamente pentesting o pruebas de penetración, Monitorear redes para evitar la inyección de código malicioso, Documentar un registro ordenado de la información de las vulnerabilidades de ciberseguridad, Capacitación de usuarios finales para prevención de tácticas de ingeniería social y phishing.  </p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Certificacion internacional de Seguridad informatica & Informatica Forense</h4>
+                        <span class="casa">Universiada Complutence de Madrid, emitido atravez de  de American College - Nicaragua</span>
+                        <span class="fecha">Enero 2017 - Junio 2017</span>
+                        <p>Responsables de investigar diversas violaciones de datos e incidentes de seguridad, recuperar y examinar datos almacenados en dispositivos electrónicos y reconstruir sistemas dañados para recuperar datos perdidos.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col derecha">
+                    <h3>Experiencia de trabajo</h3>
+                    <div class="item der">
+                        <h4>Supervisor area de informatica, Asistente de gerencia (CEO)</h4>
+                        <span class="casa">Quimica Centro Americana, Quibor S.A "Tipitapa - Nicaragua"</span>
+                        <span class="fecha">2010 - 2013</span>
+                        <p>Mantener y monitorear el sistema informático y la infraestructura de la empresa o compañía, instalación y actualización del hardware y software de las computadoras para garantizar que mantengan la estricta seguridad de la red y los documentos electrónicos de la organización.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Profesor de informatica y Programacion.</h4>
+                        <span class="casa">Colegio Presbiteral Uriel Reyes Osejo "Tipitapa - Nicaragua" </span>
+                        <span class="fecha">2015 - 2017</span>
+                        <p>Sólidos conocimientos sobre, conducción, gestión, organización, desarrollo y evaluación del proceso de enseñanza - aprendizaje. Capacidad para analizar, desarrollar y aplicar sistemas relacionados con las Tecnologías Informáticas en el área educativa. Llevar a cabo análisis de carencias de capacidades informáticas entre los empleados. Diseñar manuales técnicos utilizando un lenguaje sencillo, Impartir capacitación específica para cada puesto sobre las herramientas y programas que cada equipo utiliza a diario.  </p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Gerente General</h4>
+                        <span class="casa">Comfort Tours</span>
+                        <span class="fecha">2017 - 2023</span>
+                        <p>Responsable de la gestión global de la empresa o negocio. Encargado de planificar y dirigir las operaciones de la empresa. Desarrollar políticas, gestionar las operaciones diarias y supervisa el trabajo de los gerentes subordinados.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION PORTFOLIO -->
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>PORTFOLIO</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="img/p1.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño EN C, C++ y C#</h3>
+                        <p>Front-End Programming</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p2.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño EN JAVASCRIPT y PYTHON</h3>
+                        <p>Front-End and Back-End Programming</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p3.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño EN REACT, ANGULAR and WEB API'S </h3>
+                        <p>WEB DESIGN</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p4.jpg" alt="">
+                    <div class="overlay">
+                        <h3>REPARACION Y MANTENIMIENTO DE PC</h3>
+                        <p>PC MAINTENANCE AND REPAIR</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p5.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Seguridad informatica & Informatica Forense</h3>
+                        <p>Penetration Testing</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p6.jpg" alt="">
+                    <div class="overlay">
+                        <h3>FRONT-END and BACK-END</h3>
+                        <p>Desarollador de Aplicaciones</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CONTACTO -->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>DIRECCION GOOGLE MAP</h2>
+            <div class="fila">
+                <!-- Formulario -->
+               
+                <!-- Mapa -->
+                <div class="col">
+                    <img src="img/ubicacion.png" alt="">
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-skype"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#"><i class="fa-solid fa-rss"></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
